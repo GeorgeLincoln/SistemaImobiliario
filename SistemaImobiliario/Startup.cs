@@ -12,6 +12,7 @@ using Microsoft.Extensions.Options;
 using SistemaImobiliario.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace SistemaImobiliario
 {
     public class Startup

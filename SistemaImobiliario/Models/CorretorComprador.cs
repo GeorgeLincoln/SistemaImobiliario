@@ -1,3 +1,5 @@
+using SistemaImobiliario.Models;
+
 namespace SistemaImobiliario.Models
 {
     public class CorretorComprador

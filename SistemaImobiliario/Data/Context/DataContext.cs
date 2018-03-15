@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaImobiliario.Models;
-using  SistemaImobiliario.Models;
+
+
 
 namespace SistemaImobiliario.Data.Context
 {
@@ -14,7 +15,7 @@ namespace SistemaImobiliario.Data.Context
         public DbSet<Corretor> Corretores { get; set; }
         public DbSet<Empresa> Empresas { get; set; }
         public DbSet<Imovel> Imoveis { get; set; }
-        public DbSet<CorretorComprador> CorretorCompradores { get; set; }
+        //public DbSet<CorretorComprador> CorretorCompradores { get; set; }
 
        
 
@@ -23,7 +24,7 @@ namespace SistemaImobiliario.Data.Context
         {
          // ID de Comprador e Corretor para Tabela NxN entre as classes
          // Para injeção de dependencias
-            modelBuilder.Entity<CorretorComprador>().HasKey(md => new { md.Comprador,  md.Corretor});
+            modelBuilder.Entity<CorretorComprador>().HasKey(md => new { md.CompradorId,  md.CorretorId});
 
             modelBuilder.Entity<CorretorComprador>()
                 .HasOne(cr => cr.Corretor)
