@@ -3,17 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 using SistemaImobiliario.Data.Context;
 using SistemaImobiliario.Repositories;
 
-using SistemaImobiliario.Models;
-
 namespace SistemaImobiliario.Controllers
 {
     [Route("api/[controller]/")]
     public abstract class ControllerBase<T> : Controller where T : class
     {
         public RepositoryBase<T> _repository;
-        public ControllerBase()
+        public ControllerBase(RepositoryBase<T> repository)
         {
-            _repository = new RepositoryBase<T>(new DataContext());
+            this._repository = repository;
         }
         [HttpGet]
         public virtual IQueryable<T> GetAll()
