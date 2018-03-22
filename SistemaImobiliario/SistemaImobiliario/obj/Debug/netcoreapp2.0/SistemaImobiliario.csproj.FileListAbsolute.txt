@@ -1,0 +1,10 @@
+/home/android/Área de Trabalho/SistemaImobiliario/obj/Debug/netcoreapp2.0/SistemaImobiliario.csproj.CoreCompileInputs.cache
+/home/android/Área de Trabalho/SistemaImobiliario/obj/Debug/netcoreapp2.0/SistemaImobiliario.AssemblyInfoInputs.cache
+/home/android/Área de Trabalho/SistemaImobiliario/obj/Debug/netcoreapp2.0/SistemaImobiliario.AssemblyInfo.cs
+/home/android/Área de Trabalho/SistemaImobiliario/bin/Debug/netcoreapp2.0/SistemaImobiliario.deps.json
+/home/android/Área de Trabalho/SistemaImobiliario/bin/Debug/netcoreapp2.0/SistemaImobiliario.runtimeconfig.json
+/home/android/Área de Trabalho/SistemaImobiliario/bin/Debug/netcoreapp2.0/SistemaImobiliario.runtimeconfig.dev.json
+/home/android/Área de Trabalho/SistemaImobiliario/bin/Debug/netcoreapp2.0/SistemaImobiliario.dll
+/home/android/Área de Trabalho/SistemaImobiliario/bin/Debug/netcoreapp2.0/SistemaImobiliario.pdb
+/home/android/Área de Trabalho/SistemaImobiliario/obj/Debug/netcoreapp2.0/SistemaImobiliario.dll
+/home/android/Área de Trabalho/SistemaImobiliario/obj/Debug/netcoreapp2.0/SistemaImobiliario.pdb
